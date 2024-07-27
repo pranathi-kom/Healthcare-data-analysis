@@ -6,9 +6,9 @@
 
 configs = {"fs.azure.account.auth.type": "OAuth",
            "fs.azure.account.oauth.provider.type": "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
-           "fs.azure.account.oauth2.client.id": "4a105edf-840d-4345-af39-b778cb5f42d5",
-           "fs.azure.account.oauth2.client.secret": "3Za8Q~Cc_~vPJY3QDfM4wmeM4ESoInOi69NX4b~2",
-           "fs.azure.account.oauth2.client.endpoint": "https://login.microsoftonline.com/3fb2dc83-a18d-427d-a9bc-889aea1e89d2/oauth2/token"}
+           "fs.azure.account.oauth2.client.id": "<client_id>",
+           "fs.azure.account.oauth2.client.secret": "<secret_key>",
+           "fs.azure.account.oauth2.client.endpoint": "https://login.microsoftonline.com/<directory_id>/oauth2/token"}
 
 # COMMAND ----------
 
